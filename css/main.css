@@ -24,9 +24,12 @@ body{
    color:#000000;
 }
 /* Site-nav */
-.site-nav .link{
-    color: #212121;
+.site-nav .link {
+    color: var(--title-text-color);
 
+}
+.site-nav .link.current {
+color: var(--accent-color);
 }
 /* Contacts */
 .contact.link {
