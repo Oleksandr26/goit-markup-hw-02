@@ -1,0 +1,63 @@
+:root {
+--primary-text-color: #757575;
+--title-text-color: #212121;
+--accent-color: #2196F3;
+--hero-text-color: #FFFFFF;
+}
+body{
+    color:var(--primary-text-color)
+}
+.list {
+    list-style: none;
+
+}
+.link{
+    text-decoration: none;
+}
+
+/* logo */
+.web {
+    color:var(--accent-color);
+}
+.logo {
+   text-decoration: none;
+   color:#000000;
+}
+/* Site-nav */
+.site-nav .link{
+    color: #212121;
+
+}
+/* Contacts */
+.contact.link {
+    color: #757575;
+}
+.link:hover,
+.link:focus {
+    color: var(--accent-color);
+}
+/* Hero */
+.hero{
+    background-color: #2F303A;
+}
+.hero-title {
+    color:var(--hero-text-color);
+}
+.button{
+    background-color: var(--accent-color);
+    color: var(--hero-text-color);
+}
+/* Our Skills */
+.section-title{
+    color: var(--title-text-color);
+}
+
+
+/* web color #2196F3 */
+/* header nav:#212121 contact:#757575 background: #FFFFFF */
+/*  text color of hero #FFFFFF */
+
+/* nav color #2196F3 */
+/* footer  
+contact color: rgba(255, 255, 255, 0.6);
+background #2F303A */
