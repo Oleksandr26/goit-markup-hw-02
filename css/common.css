@@ -8,6 +8,15 @@
     --logo-color: #000000;
     --background-team-color: #F5F4FA;
 }
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    background-color: var(--white-text-color);
+}
 .list {
     list-style: none;
 
@@ -16,6 +25,7 @@
 .link {
     text-decoration: none;
 }
+
 /* Header */
 /* Logo */
 .accent {
