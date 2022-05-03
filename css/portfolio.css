@@ -20,8 +20,15 @@
     letter-spacing: 0.06em;
     color: var(--title-text-color);
 }
-p{
+.text{
     font-size: 16px;
-    line-height: 1.88;
-    
+    line-height: 1.88;  
+       
+    color: var(--primary-text-color);
+}
+.title:focus,
+.title:hover,
+.text:focus,
+.text:hover{
+    color: var(--accent-color);
 }
