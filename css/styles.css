@@ -55,7 +55,7 @@ body {
     color: var(--title-text-color);
 }
 
-.site-nav .link.current {
+.site-nav .link.current{
     color: var(--accent-color);
 }
 
@@ -164,6 +164,10 @@ body {
     color: var(--white-text-color);
     background-color: var(--accent-color);
 }
+.filter.current{
+    color: var(--white-text-color);
+    background-color: var(--accent-color);
+}
 /* Examples */
 
 .title {
@@ -185,4 +189,18 @@ body {
 .text:focus,
 .text:hover {
     color: var(--accent-color);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
