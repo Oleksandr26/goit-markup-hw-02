@@ -20,6 +20,20 @@ body {
     background-color: var(--white-text-color);
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .list {
     list-style: none;
 
@@ -99,30 +113,30 @@ body {
     background-color: var(--footer-bg-color);
 }
 /* Our Skills */
-.section-title.skills{
+.about-title{
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--title-text-color);
 }
-.section-title.job,
-.section-title.team{
+.job-title,
+.team-title{
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     color: var(--title-text-color);
 }
 /* Team */
-.section-team{
+.team{
     background-color: var(--background-team-color);
 }
-.section-title.avatar{
+.team-subtitle{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     color: var(--title-text-color);
 }
-.section-title.text{
+.team-description{
     font-size: 16px;
     line-height: 1.19;
 }
@@ -137,6 +151,7 @@ body {
 
 .address {
     font-style: normal;
+    text-decoration: none;
     color: var(--white-text-color);
 }
 
@@ -147,7 +162,7 @@ body {
 
 /* Portfolio css */
 /* filter */
-.filter {
+.btn-filter {
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -159,48 +174,27 @@ body {
     cursor: pointer;
 }
 
-.filter:hover,
-.filter:focus {
+.btn-filter:hover,
+.btn-filter:focus {
     color: var(--white-text-color);
     background-color: var(--accent-color);
 }
-.filter.current{
+.btn-filter.current{
     color: var(--white-text-color);
     background-color: var(--accent-color);
 }
 /* Examples */
 
-.title {
+.card-title {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--title-text-color);
 }
 
-.text {
+.card-description {
     font-size: 16px;
     line-height: 1.88;
 
     color: var(--primary-text-color);
-}
-
-.title:focus,
-.title:hover,
-.text:focus,
-.text:hover {
-    color: var(--accent-color);
-}
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
 }
